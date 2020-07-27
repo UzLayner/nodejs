@@ -205,7 +205,7 @@ const { Qiwi } = require('node-qiwi-api');
 const qiwi = new Qiwi(qiwistr.split(" ")[1]);
 
 const Telegram = require('node-telegram-bot-api');
-const bot = new Telegram('1205816982:AAGz3yN4jX6izLah7OIgrJUs3Ayhqm821V0', { polling: true });
+const bot = new Telegram('835175453:AAF_GGE6YkeyXiLkOO0gum8kssMc8f5OHMs', { polling: true });
 
 bot.getMe().then(r => console.log(r))
 
@@ -2780,7 +2780,7 @@ setInterval(ticker, 1000 * 60)
 
 function getNextClanWarTimestamp() {
 	var dt = new Date()
-	var m = dt.getMonth()
+	var m = dt.getMonth()h
 	var d = dt.getDate()
 	if (d < 5) dt.setDate(5)
 	else if (d >= 25) {
